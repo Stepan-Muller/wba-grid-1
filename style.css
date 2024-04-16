@@ -1,0 +1,23 @@
+.container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    margin: 40px;
+}
+
+.container div
+{
+    background-color: cornflowerblue;
+    padding: 40px;
+}
+
+.tall
+{
+    grid-row: span 2;
+}
+
+.wide
+{
+    grid-column: span 2;
+}
